@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import { Play } from 'lucide-react';
 import Lottie from 'lottie-react';
-import animationData from '../public/your-animation.json'; // Ajuste o caminho conforme necessário
+import animationData from '../../public/animationapp.json';
 
 export default function HeroSection() {
   const [screenHeight, setScreenHeight] = useState(0);
